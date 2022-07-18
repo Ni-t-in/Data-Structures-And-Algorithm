@@ -14,7 +14,7 @@ public static int decimalToAnyBase(int number, int base){
 	//it will give digits of resultant
   	int remainder = number % base;
 		
-	//reducing number by dividing it with base
+	//reducing the number by dividing it with base
     number = number / base;
 	
     resultant = resultant + (remainder * multiplier);
