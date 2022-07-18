@@ -18,6 +18,7 @@ public static int decimalToAnyBase(int number, int base){
 	
     resultant = resultant + (remainder * multiplier);
     multiplier *= 10;
+		
   }
   return resultant;
 }
