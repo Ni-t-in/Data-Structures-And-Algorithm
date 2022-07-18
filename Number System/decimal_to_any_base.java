@@ -1,4 +1,5 @@
 //will convert decimal to binary and octal but not hexadecimal since it contains character too.
+
 public static int decimalToAnyBase(int number, int base){
 	
 	//taking initial resultant 0
