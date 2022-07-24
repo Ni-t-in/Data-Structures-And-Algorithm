@@ -1,5 +1,3 @@
-//will perform product of binary,decimal and octal except hexadecimal since it contains character too.
-
 public static int getProduct(int base, int number1, int number2){
    int product = 0;
    int powerShifter = 1;
