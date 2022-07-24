@@ -1,5 +1,3 @@
-//will perform sum for binary and octal base but not for hexadecimal since it contains character too
-
 public static int anyBaseSum(int base, int number1, int number2){
     
     int resultant = 0;
