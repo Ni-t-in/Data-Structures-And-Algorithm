@@ -3,7 +3,7 @@
 public static int anyBaseSum(int base, int number1, int number2){
     
     int resultant = 0;
-    int multiplier = 1;
+    int powerShifter = 1;
     int carry = 0;
 
     while(number1 > 0 || number2 > 0 || carry > 0){
@@ -24,8 +24,8 @@ public static int anyBaseSum(int base, int number1, int number2){
     digSum = digSum % base;
     
     //forming the resultant       
-    resultant += digSum * multiplier;
-    multiplier *= 10;
+    resultant += digSum * powerShifter;
+    powerShifter *= 10;
 	    
     }
     return resultant;
